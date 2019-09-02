@@ -1,0 +1,8 @@
+{
+  "name": "convert_speech_to_text",
+  "version": "1.0.0",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.30.1",
+    "@google-cloud/speech": "^3.2.2"
+  }
+}
