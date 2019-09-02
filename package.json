@@ -22,6 +22,7 @@
   "scripts": {
     "start": "concurrently \"react-scripts build\" \"node server.js\"",
     "build": "react-scripts build",
+    "login": "gcloud auth application-default login",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

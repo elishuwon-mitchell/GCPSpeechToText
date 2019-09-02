@@ -49,7 +49,7 @@ npm login
 Change directory into the `cloud_functions/convert_speech_to_text/` directory and deploy your cloud function. Be sure to replace `YOUR-BUCKET-NAME` with the actual name of your Cloud Storage bucket :-).
 ```
 cd cloud_functions/convert_speech_to_text/
-gcloud beta functions deploy convertSpeech --runtime nodejs8 --trigger-resource YOUR-BUCKET-NAME --trigger-event google.storage.object.finalize
+gcloud functions deploy convertSpeech --runtime nodejs8 --trigger-resource eli-mitchell --trigger-event google.storage.object.finalize
 ```
 
 Change directory back to the root of the project and start the app:

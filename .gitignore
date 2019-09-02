@@ -23,3 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 application_credentials.json
+
+cloud_functions/*/node_modules
+cloud_functions/*/package-lock.json
+
+speech.raw
