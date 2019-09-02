@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About:
 The goal of this project was to gain exposure to using various different Google Cloud Platform
-products. This was done by creating an app that converts speech to text. It was originally done on a raspberry pi, hence the name of the repo.
+products. This was done by creating an app that converts speech to text.
 
 ## Prerequisites
 1. node - [install it here](https://nodejs.org/en/)
