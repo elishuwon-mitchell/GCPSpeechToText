@@ -19,7 +19,7 @@ const { bucketName, fileName } = appConfig.cloudStorage;
 // Cloud PubSub initialization
 const pubsub = new PubSub();
 const subscriptionName = appConfig.pubsub.subscriptionName;
-const timeout = 60 * 5;
+const timeout = 60 * 10;
 const subscription = pubsub.subscription(subscriptionName);
 
 app.set('port', process.env.PORT || 3000);

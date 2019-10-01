@@ -10,6 +10,15 @@
   width: 50%;
 }
 
+.tableContainer {
+  width: 50%;
+  overflow-y: auto;
+}
+
+th, td {
+  text-align: center;
+}
+
 .cardActions{
   justify-content: center;
 }
